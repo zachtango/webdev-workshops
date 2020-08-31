@@ -1,7 +1,7 @@
 ﻿# Intro to Web Dev Workshops
 ---
 
-Hello and welcome to the TAMS Web Dev Committee's workshops. These workshops are basic introductions to web development for you to start building your own websites. The workshops will be conducted online. The final code for each workshop is stored on this repo, and you can find the code below.
+Hello and welcome to the TAMS Web Dev Committee's workshops. These workshops are basic introductions to web development for you to start building your own websites. The workshops will be conducted online (We have yet to decide between zoom and discord). The final code for each workshop is stored on this repo, and you can find the code below.
 
 
 ## Workshops
