@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body * {
+  display: flex;
+}
+
+#header {
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#header h1,
+#header p {
+  margin: 0px;
+}
+
+#portfolio,
+#personal-interests,
+#contact {
+  flex-direction: column;
+}
+
+#portfolio h2,
+#personal-interests h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+#portfolio p,
+#personal-interests p {
+  margin: 0;
+}
+
+.grid {
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.grid-label {
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.grid-label h4 {
+  margin: 0;
+}
+
+#contact {
+  align-items: center;
+}
+
+#contact h2,
+#contact p {
+  margin: 0px;
+}
+
+#contact p {
+  margin: 10px 0;
+}
