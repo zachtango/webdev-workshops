@@ -5,7 +5,6 @@
 
 body {
   font-family: helvetica, sans-serif;
-  margin: 0;
 }
 
 h2{
@@ -28,7 +27,6 @@ a {
 }
 
 #navbar ul {
-  padding: 0;
   display: inline-block;
 }
 
@@ -76,8 +74,6 @@ a {
   top: 50%;
   left: 50%;
 
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   transform: translateX(-50%);
 
@@ -88,23 +84,23 @@ a {
 
 /* Portfolio and Personal-Interests Styling */
 #portfolio,
-#interests {
+#personal-interests {
   width: 100%;
 
   padding: 80px 0;
 }
 
-#interests {
+#personal-interests {
   background-color: #eeeeee;
 }
 
 #portfolio h2,
-#interests h2 {
+#personal-interests h2 {
   margin: 20px 0;
 }
 
 #portfolio .subheader,
-#interests .subheader {
+#personal-interests .subheader {
   margin: 10px 0;
   
   font-size: 20px;
@@ -113,7 +109,7 @@ a {
 }
 
 #portfolio .card,
-#interests .card {
+#personal-interests .card {
   width: 100%;
   max-width: 880px;
 
@@ -122,18 +118,15 @@ a {
   position: relative;
 }
 
-.img-container{
+#portfolio img,
+#personal-interests img {
+  width: 400px;
+  height: 250px;
   display: inline-block;
 }
 
-#portfolio img,
-#interests img {
-  width: 400px;
-  height: 250px;
-}
-
 #portfolio .info,
-#interests .info {
+#personal-interests .info {
   display: inline-block;
 
   width: calc(100% - 500px);
@@ -145,7 +138,7 @@ a {
 }
 
 #portfolio h4,
-#interests h4 {
+#personal-interests h4 {
   font-size: 22px;
   font-weight: 500;
 
@@ -154,7 +147,7 @@ a {
 }
 
 #portfolio h5,
-#interests h5 {
+#personal-interests h5 {
   font-size: 14px;
   font-weight: 500;
 
@@ -164,7 +157,7 @@ a {
 }
 
 #portfolio p,
-#interests p {
+#personal-interests p {
   font-size: 14px;
 }
 
@@ -184,7 +177,7 @@ a {
   margin: 26px 0;
 }
 
-#contact-links{
+#contact div{
   text-align: center;
 }
 
